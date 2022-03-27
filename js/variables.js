@@ -74,3 +74,11 @@ console.log(mixedArray[2][0]);
 
 console.log(mixedArray[3].age);
 console.log(mixedArray[3]);
+
+
+
+let ki = 1;
+while ( ki < 5) {
+    console.log(ki);
+    ki++;
+}
