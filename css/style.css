@@ -49,6 +49,9 @@
     background-color: lightgray;
   }
   
+  .big_pokemon {
+    color: var(--dark-grey);
+  }
   
   @media all and (max-width: 500px) {
     .grid {
