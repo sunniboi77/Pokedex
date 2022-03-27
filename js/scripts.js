@@ -13,13 +13,15 @@ let pokemonList = [
     { name: "Caterpie", height: 1, types: ["bug"] },
     { name: "Weedle", height: 1, ypes: ["bug", "poison"] }
 ];
- 
+
+const biggie = document.querySelector('.biggie');
+
 for (let i=0; i < pokemonList.length ;i++) {
     if ( (pokemonList[i].height > 1.5 ) ) {
-        document.writeln("<p>", pokemonList[i].name, ' height is BIGGER than ',pokemonList[i].height , '<\p>');    
+        document.writeln("<p class=biggie>", pokemonList[i].name, ' height is BIGGER than ',pokemonList[i].height , '<\p>');    
     }
     else {
-        document.writeln("<div>", pokemonList[i].name, ' height is  ',pokemonList[i].height , '<\div>');    
+        document.writeln("<p>", pokemonList[i].name, ' height is  ',pokemonList[i].height , '<\p>');    
      
     }
 }

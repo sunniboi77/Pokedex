@@ -8,6 +8,7 @@
   :root {
     --primary-color: #357b70;
     --secondary-color: darkgoldenrod;
+    --red: red;
     --dark-grey: darkgrey;
     --button-green: green;
     --base-color: white;
@@ -49,8 +50,8 @@
     background-color: lightgray;
   }
   
-  .big_pokemon {
-    color: var(--dark-grey);
+  .biggie {
+    color: var(--red);
   }
   
   @media all and (max-width: 500px) {
