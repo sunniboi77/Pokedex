@@ -51,7 +51,9 @@
   }
   
   .biggie {
+    font-size: 38px;
     color: var(--red);
+    font-style: italic;
   }
   
   @media all and (max-width: 500px) {
