@@ -132,7 +132,20 @@ display: none;
 display: block;
 }
 
- 
+.modal-body{
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  background: #fff;
+  border:8px solid rgb(35, 83, 29);
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgba(237, 251, 231, 0.244);
+  z-index: 100;
+}
 
 
 
